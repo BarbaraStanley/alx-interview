@@ -6,11 +6,11 @@ Pascal's triangle
 
 
 def pascal_triangle(n):
-    """  returns list of lists of integers representing 
+    """  returns list of lists of integers representing
     the Pascal triangle of n """
 
     # the first row is always 1
-    pyramid = [[1]] 
+    pyramid = [[1]]
     if n <= 0:
         return []
     # run through the remaining n rows
